@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <form action="">
+            <label for="">First Name: </label>
+            <input type="text" id="firstname" required><br><br>
+
+            <label for="">Last Name: </label>
+            <input type="text" id="lastname" required><br><br>
+
+            <label for="">Email: </label>
+            <input type="email" id="email" required><br><br>
+
+            <label for="">Password: </label>
+            <input type="password" id="password" required><br><br>
+
+            <button type="button" onclick="submitForm()">Submit</button>
+        </form>
+    </center>
+
+    <div id="result"></div><br><br>
+
+    <span class="short-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident sapiente hic quasi
+        id</span>
+    <span class="full-description" style="display: none;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo,
+        nisi! Eos a, quaerat laboriosam magni quia iste beatae ratione sit nulla velit iure, veniam sed placeat minima
+        odio in est!</span><br>
+    <button class="readmore-btn" onclick="toggleDescription()">Read More</button>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
